@@ -1,0 +1,31 @@
+.logo{
+    width: 15%;
+    border: 1px dashed white;
+    justify-content: center;
+}
+.menu{
+    width: 85%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.titulo{
+    font-size: 2rem;
+    align-items: center;
+}
+.menu li{
+    margin-right: 10px;
+}
+.seccion{
+    width: 70%;
+}
+.fotografia{
+    width: 30%;
+}   
+.img_ruta img{
+    width: 45%;
+    margin: 20px auto;
+    border: 1px dashed white;
+}
+.titulo_ruta p, .pie_pag{
+    font-size: 2rem;
+}

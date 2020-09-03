@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.cabecera, .menu ul, .logo, .container, .seccion, .titulo, .letra, .fotografia, .rutas, .titulo_ruta, .img_ruta,.pie_pag{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    border: 1px dashed white;
+}
+.logo{
+    margin: 0 auto;
+}
+.cabecera, .menu{
+    width: 100%;
+    min-width: 150px;
+    background-color: #9a031e;
+}
+.menu li{
+    font-size: 1.4rem;
+    padding: 0 1.5rem;
+    list-style: none;
+}
+.seccion{
+    width: 100%;
+    min-width: 150px;
+    background-color: #343a40;
+    color: white;
+    justify-content: center;
+}
+.titulo{
+    text-decoration: underline;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 20px;
+}
+.letra{
+    font-size: 1.2rem;
+    padding: 0 20px 20px 20px;
+    text-align: justify;
+}
+.fotografia{
+    width: 100%;
+    background-color: #343a40;
+    padding: 30px;
+}
+.fotografia img{
+    width: 100%;
+}
+.rutas{
+    width: 100%;
+    min-width: 150px;
+    background-color: #f77f00;
+}
+.titulo_ruta{
+    width: 100%;
+    min-width: 150px;
+    height: 50px;
+    background-color: #9a031e;
+    border: 1px dashed white;
+    justify-content: center;
+    align-items: center;
+}
+.titulo_ruta p{
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.img_ruta img{
+    width: 100%;
+    border: 1px solid white;
+}
+.pie_pag{
+    width: 100%;
+    min-width: 150px;
+    height: 50px;
+    background-color: #9a031e;
+    border: 1px dashed white;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: white;
+    align-items: center;
+}
+
+/* @media(min-width:640px){
+
+.logo{
+    width: 15%;
+    border: 1px dashed white;
+    justify-content: center;
+}
+.menu{
+    width: 85%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.titulo{
+    font-size: 2rem;
+    align-items: center;
+}
+.menu li{
+    margin-right: 10px;
+}
+.seccion{
+    width: 70%;
+}
+.fotografia{
+    width: 30%;
+}   
+.img_ruta img{
+    width: 45%;
+    margin: 20px auto;
+    border: 1px dashed white;
+}
+.titulo_ruta p, .pie_pag{
+    font-size: 2rem;
+}
+}
+
+@media(min-width:1024px){
+.logo{
+    width: 25%;
+    border: 1px dashed white;
+    justify-content: center;
+}
+.menu{
+    width: 75%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.rutas{
+    width: 25%;
+    order: 1;
+}
+.seccion{
+    width: 50%;
+    order: 2;
+}
+.fotografia{
+    width: 25%;
+    order: 3;
+    padding: 40px 20px;
+}
+.pie_pag{
+    order: 4;
+}
+.img_ruta img{
+    width: 65%;
+    margin: 0 auto;
+}
+} */
